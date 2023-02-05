@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #ff9a4b;
+  width: 100%;
+  height: 50px;
+}
+
+main {
+  width: 960px;
+  padding: 50px 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content:center;
+}
+
+.box {
+  width: 300px;
+  padding: 10px;
+  background-color: #eeeeee;
+  margin-right: 30px;
+  position: relative;
+}
+
+.box:last-child {
+  margin-right: 0;
+}
+
+.img-box {
+  background-size: cover;
+  background-position: bottom;
+  height: 150px;
+}
+
+.img1 {
+  background-image: url("img 1-9_exercise/flow01.png");
+}
+
+.img2 {
+  background-image: url("img 1-9_exercise/flow02.png");
+}
+
+.img3 {
+  background-image: url("img 1-9_exercise/flow03.png");
+}
+
+h3 {
+  padding: 15px 0 5px 0;
+}
+
+span {
+  background-color: #ff9a4b;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left:0;
+  color: #fff;
+}
+
+
+footer {
+  background-color: #aaa;
+  width: 100%;
+  height: 50px;
+}
